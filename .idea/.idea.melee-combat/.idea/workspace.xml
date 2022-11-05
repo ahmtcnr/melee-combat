@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6698db4f-baf0-406d-92df-534371011686" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.melee-combat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.melee-combat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Controllers/Player(CloseCombat).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Controllers/Player(CloseCombat).controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CombatTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667647852769</updated>
-      <workItem from="1667647853342" duration="12846000" />
+      <workItem from="1667647853342" duration="14887000" />
     </task>
     <servers />
   </component>

@@ -44,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
             switch (_movementStates)
             {
                 case MovementStates.Idle:
-                    _animator.SetTrigger(RunToStop);
                     _animator.SetBool(IsRunning, false);
                     break;
                 case MovementStates.Running:
@@ -56,11 +55,6 @@ public class PlayerMovement : MonoBehaviour
         _previousState = _movementStates;
     }
 
-    private void FixedUpdate()
-    {
-        //_rb.MovePosition(transform.position + _joystick.DirectionV3.normalized * (_moveSpeed * Time.deltaTime));
-    }
-
 
     private enum MovementStates
     {
@@ -70,5 +64,5 @@ public class PlayerMovement : MonoBehaviour
 
 
     private static readonly int IsRunning = Animator.StringToHash("is_running");
-    private static readonly int RunToStop = Animator.StringToHash("run_to_stop");
+    private static readonly int Idle = Animator.StringToHash("idle");
 }
