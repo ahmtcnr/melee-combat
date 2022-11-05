@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6698db4f-baf0-406d-92df-534371011686" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerCombat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerCombat.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.melee-combat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.melee-combat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Controllers/Player(CloseCombat).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Controllers/Player(CloseCombat).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Controllers/Dummy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Controllers/Dummy.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CombatTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dummy/DummyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dummy/DummyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpecific/PlayerController.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +22,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1814dcccc6d4479b87e701be93b4a75526e00/64/46e5ee6b/AnimatorUpdateMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1814dcccc6d4479b87e701be93b4a75526e00/ce/c5731d39/Animator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/2b/9ac2ee90/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/5a/fbc598e4/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2004dc44b7841908ff2046e207e52be3d400/99/9e0fb408/IPointerDownHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dummy/DummyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.7/Editor/Drawing/Controls/EnumControl.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2H7tG56faKR2nEa3KtEgw1QfMLb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667647852769</updated>
-      <workItem from="1667647853342" duration="14887000" />
+      <workItem from="1667647853342" duration="18715000" />
     </task>
     <servers />
   </component>

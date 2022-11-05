@@ -1075,6 +1075,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497117d135f3fb14cbc5624891b9a440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _lookAtDistance: 6
+  _rotateSpeed: 10
 --- !u!224 &1680467266 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
