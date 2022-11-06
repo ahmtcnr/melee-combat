@@ -9,10 +9,12 @@ public class DummyController : MonoBehaviour, IDamageable
     [SerializeField] private float _lookAtDistance;
     [SerializeField] private float _rotateSpeed;
 
+    private Animator _animator;
 
     private void Awake()
     {
         _playerTransform = FindObjectOfType<PlayerController>().transform;
+        _animator = GetComponent<Animator>();
     }
 
 
@@ -30,8 +32,14 @@ public class DummyController : MonoBehaviour, IDamageable
             transform.forward = Vector3.Lerp(transform.forward, dirToPlayer, _rotateSpeed * Time.deltaTime);
         }
     }
+    
+    public void ReceiveDamage(ReceiveDamageAction receiveDamageAction)
+    {
+        _animator.SetTrigger(ReceivePunch);
+    }
 
-
+    private readonly int ReceivePunch = Animator.StringToHash("receive_punch");
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -39,8 +47,5 @@ public class DummyController : MonoBehaviour, IDamageable
         Handles.DrawWireDisc(transform.position, Vector3.up, _lookAtDistance);
     }
 
-    public void ReceiveDamage(ReceiveDamageAction receiveDamageAction)
-    {
-        Debug.Log("");
-    }
+   
 }

@@ -1020,7 +1020,8 @@ GameObject:
   - component: {fileID: 1642689977}
   - component: {fileID: 1642689979}
   - component: {fileID: 1642689978}
-  m_Layer: 0
+  - component: {fileID: 1642689980}
+  m_Layer: 6
   m_Name: Dummy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1077,22 +1078,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lookAtDistance: 6
   _rotateSpeed: 10
+--- !u!136 &1642689980
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642689976}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!224 &1680467266 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
   m_PrefabInstance: {fileID: 1566963007}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1680467267 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-  m_PrefabInstance: {fileID: 1566963007}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1691437912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 27b7d9209652eb44cb80439c32f3f0d0, type: 3}
@@ -1145,9 +1149,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88791092b164b804286e08a36b9e2546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _joystick: {fileID: 1680467267}
-  _moveSpeed: 7
-  _rotateSpeed: 20
+  _movementSettings:
+    moveSpeed: 7
+    rotateSpeed: 20
+  _combatSettings:
+    punchDistance: 1.5
+    punchCoolDown: 1
+    contactLayer:
+      serializedVersion: 2
+      m_Bits: 64
 --- !u!95 &1740036715
 Animator:
   serializedVersion: 4
@@ -1180,7 +1190,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
